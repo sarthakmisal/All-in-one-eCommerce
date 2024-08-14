@@ -1,0 +1,45 @@
+echo 
+/application/cache/*
+/application/logs/*
+/application/config/*.php
+!/application/config/config.php
+!/application/config/database.php
+/application/config/encryption_key.php
+
+# CI Sessions
+/application/sessions/*
+
+# Composer dependencies
+/vendor/*
+
+# Environment configuration
+/.env
+*.env
+
+# Ignore uploaded files
+/uploads/*
+
+# Ignore IDE and editor config files
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.idea/
+.vscode/
+
+# Node modules (if using Node.js)
+/node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+
+# Temporary files
+*.temp
+*.log
+
+# Ignore files related to deployment
+/deploy/
+>> .gitignore
